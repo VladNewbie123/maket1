@@ -1,0 +1,674 @@
+body {
+    margin: 0;
+    font: 400 18px/28px Inter, sans-serif;
+    background: #EFEFF2;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 0 0;
+}
+
+.header__box {
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.btn-box {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    gap: 14px;
+    color: #19191C;
+    align-items: center;
+}
+
+.link {
+    color: #19191C;
+}
+
+.header__link {
+    color: #19191C;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.header__btn {
+    background: #19191C;
+    color: #EFEFF2;
+    padding: 12px 37px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.offer {
+    display: flex;
+    height: 856px;
+    justify-content: space-between;
+    background: url(../img/1.png) no-repeat 120% 100%;
+    padding-top: 130px;
+}
+
+.offer__holder {
+    width: 648px;
+    height: 636px;
+    background: url(../img/Ellipse20.png) no-repeat 100% 100%;
+}
+
+.offer__title {
+    line-height: 70.19px;
+    font-size: 58px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+.offer__line-blue {
+    width: 84px;
+    border: 4px solid #504DEE;
+    margin-left: 0;
+}
+
+.offer__title__months {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.78px;
+    margin-bottom: 0;
+}
+
+.offer__profession {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+
+.offer__description {
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.offer__sale {
+    font-size: 58px;
+    line-height: 70.19px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.offer__time {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.78px;
+    margin-top: 0;
+}
+
+.offer__list {
+    list-style: none;
+    position: relative;
+    width: 1043px;
+    height: 832.5px;
+}
+
+.offer__list-li1, .offer__list-li2, .offer__list-li3, .offer__list-li4, .offer__list-li5, .offer__list-li6 {
+    width: auto;
+    height: auto;
+    border: 2px solid #19191C;
+    padding: 16px 36px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    position: absolute;
+}
+
+.offer__list-li1{
+    top: 66px;
+    left: 660px;
+}
+
+.offer__list-li2{
+    top: 0;
+    left: 433px;
+}
+.offer__list-li3{
+    top: 74px;
+    left: 204px;
+}
+.offer__list-li4{
+    top: 256px;
+    left: 168px;
+}
+.offer__list-li5{
+    top: 393px;
+    left: 0;
+}
+.offer__list-li6{
+    top: 570px;
+    left: 36px;
+}
+
+.button {
+    width: 141px;
+    height: 54px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    color: #FBFBFC;
+    background: #504DEE;
+    padding: 16px 37px;
+    border: 0;
+}
+
+footer {
+    color: white;
+    background: #19191C;
+    padding-top: 50px;
+}
+
+.profession__cart-item-green {
+    background: #DEEFE4;
+    width: 466px;
+    height: 329px;
+}
+
+.profession__cart-item-yellow {
+    background: #F3F3D7;
+    width: 466px;
+    height: 329px;
+}
+
+.profession__cart-item-pink {
+    background: #EFDEEE;
+    width: 466px;
+    height: 329px;
+}
+
+.discover__card-green {
+    background: #DEEFE4;
+    width: 467px;
+    height: 732px;
+    padding: 48px;
+}
+
+.discover__card-blue {
+    background: #504DEE;
+    color: white;
+    width: 467px;
+    height: 732px;
+    padding: 48px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.profession__description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    width: 588px;
+    color: #6D6D77;
+}
+
+.profession__title{
+    width: 588px;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70.19px;
+}
+
+.profession__cards{
+    display: flex;
+    gap: 15px;
+    padding-top: 140px;
+}
+
+.profession__counter-item{
+    width: 354px;
+}
+
+.profession__block{
+    display: flex;
+    align-items: center;
+}
+
+.profession{
+    background: white;
+    justify-content: space-between;
+}
+
+.profession__card-title{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41.15px;
+    margin-left: 42px;
+}
+
+.profession__card-hr{
+    width: 371px;
+    border: 4px solid #19191C
+}
+
+.profession__card-text{
+    width: 368px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 42px;
+}
+
+.profession__count-hr{
+    border: 4px solid #19191C;
+    width: 254px;
+    margin-left: 0;
+}
+
+.profession__counter-number{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70.19px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.profession__counter-title{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 0;
+}
+
+.profession__counters{
+    gap: 100px;
+    display: flex;
+}
+
+.profession__counter-description{
+    color: #6D6D77;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.discover{
+    background: white;
+    padding-top: 171px;
+    padding-bottom: 70px;
+}
+
+.discover__title{
+    margin-top: 0;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70.19px;
+}
+
+.discover__cards{
+    display: flex;
+    gap: 15px;
+}
+
+.discover__card-li{
+    list-style-type: square;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 15px;
+}
+
+.discover__card-title{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41.15px;
+}
+
+.discover__card-number{
+    color: #6D6D77;
+    line-height: 26px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 240px;
+}
+
+.discover__card-number0{
+    color: #6D6D77;
+    line-height: 26px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 197px;
+}
+
+.discover__card-number-white{
+    margin-top: 197px;
+    line-height: 26px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.discover__card-text{
+    line-height: 70.19px;
+    font-weight: 700;
+    font-size: 58px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.discover__card-black{
+    background: black;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    border: 0;
+    width: 163px;
+    height: 58px;
+    padding: 16px 36px;
+}
+
+.discover__card-white{
+    background: white;
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    border: 0;
+    width: 163px;
+    height: 58px;
+    padding: 16px 36px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.copyright{
+    display: flex;
+    line-height: 28px;
+    font-weight: 400;
+    font-size: 18px;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    color: #6D6D77;
+}
+
+.footer__block{
+    display: flex;
+    gap: 150px;
+}
+
+.sitemap__list{
+    padding-left: 0;
+}
+
+.footer__logo{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    line-height: 21.78px;
+    font-weight: 800;
+}
+
+.footer__email{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.05px;
+}
+
+.footer__telephone{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.05px;
+}
+
+.sitemap__title{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    margin-top: 0;
+}
+
+.sitemap__list{
+    color: #EFEFF2;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+@media (min-width: 0) and (max-width: 375px){
+
+    .profession{
+        margin-top: -33px;
+    }
+
+    .header{
+        padding: 15px 0 0 5px;
+    }
+
+    .header__box{
+        gap: 8px;
+    }
+
+    .logo{
+        font-size: 14px;
+        gap: 5px;
+    }
+
+    .nav__list{
+        gap: 6px;
+        font-size: 11px;
+    }
+
+    .header__btn{
+        padding: 2px 8px;
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .container{
+        width: 365px;
+    }
+
+    .btn-box{
+        gap: 6px;
+    }
+
+    .header__link{
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .offer{
+        display: block;
+        padding-top: 15px;
+        height: 1378px;
+        background: url(../img/1.png) no-repeat 34% 100%;
+    }
+
+    .offer__title__months{
+        font-size: 14px;
+    }
+
+    .offer__line-blue{
+        width: 80px;
+        border: 2px solid #504DEE;
+    }
+
+    .offer__profession{
+        font-size: 14px;
+    }
+
+    .offer__title{
+        line-height: 47px;
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+
+    .offer__description{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .offer__holder{
+        width: 345px;
+        height: 560px;
+        background: none;
+        padding-left: 15px;
+    }
+
+    .offer__list-li1, .offer__list-li2, .offer__list-li3, .offer__list-li4, .offer__list-li5, .offer__list-li6 {
+        font-size: 14px;
+        padding: 10px 30px;
+    }
+
+    .offer__list-li1{
+        top: 25px;
+        left: 230px;
+    }
+
+    .offer__list-li2{
+        top: 60px;
+        left: 85px;
+    }
+
+    .offer__list-li3{
+        top: 115px;
+        left: 30px;
+    }
+
+    .offer__list-li4{
+        top: 175px;
+        left: 15px;
+    }
+
+    .offer__list-li5{
+        top: 236px;
+        left: 45px;
+    }
+
+    .offer__list-li6{
+        top: 295px;
+        left: 3px;
+    }
+
+    .profession__title{
+        width: 337px;
+        font-size: 40px;
+    }
+
+    .profession__description{
+        width: 357px;
+        font-size: 15px;
+    }
+
+    .profession__block{
+        display: block;
+    }
+
+    .profession__counters{
+        display: block;
+    }
+
+    .profession__counter-number{
+        font-size: 40px;
+    }
+
+    .profession__cards{
+        display: grid;
+        padding-top: 30px;
+    }
+
+    .profession__cart-item-green, .profession__cart-item-yellow, .profession__cart-item-pink{
+        width: 365px;
+        padding-top: 1px;
+    }
+
+    .profession__card-hr{
+        width: 275px;
+    }
+
+    .profession__card-text{
+        width: 323px;
+    }
+
+    .discover{
+        padding-top: 90px;
+    }
+
+    .discover__title{
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .discover__cards{
+        display: grid;
+    }
+
+    .discover__card-green, .discover__card-blue{
+        width: 269px;
+    }
+
+    .discover__card-number{
+        margin-top: 200px;
+        margin-bottom: 0;
+    }
+
+    .discover__card-text{
+        font-size: 40px;
+    }
+
+    .discover__card-number-white{
+        margin-top: 100px;
+        margin-bottom: 0;
+    }
+
+    .discover__card-number0{
+        margin-bottom: 0;
+        margin-top: 158px;
+    }
+
+    .copyright{
+        font-size: 14px;
+    }
+
+    .footer__block{
+        gap: 50px;
+        padding-left: 25px;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+
+
+
